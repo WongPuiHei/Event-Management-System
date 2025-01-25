@@ -1,0 +1,112 @@
+# depslib dependency file v1.0
+1731909920 source:c:\users\billy\desktop\project\coordinator.cpp
+	"Coordinator.h"
+	"EventManager.h"
+	"Event.h"
+
+1731909895 c:\users\billy\desktop\project\coordinator.h
+	"User.h"
+	<string>
+	<vector>
+
+1731822137 c:\users\billy\desktop\project\user.h
+	<string>
+
+1732682972 c:\users\billy\desktop\project\room.h
+	"IRoom.h"
+	<stdexcept>
+
+1732689353 source:c:\users\billy\desktop\project\event.cpp
+	"Event.h"
+
+1732692034 c:\users\billy\desktop\project\event.h
+	<string>
+	<vector>
+	<queue>
+
+1732689814 source:c:\users\billy\desktop\project\eventmanager.cpp
+	"EventManager.h"
+	"Event.h"
+	"BookingManager.h"
+	<algorithm>
+	<stdexcept>
+
+1732689727 c:\users\billy\desktop\project\eventmanager.h
+	<map>
+	<string>
+	<vector>
+	"Event.h"
+	"BookingManager.h"
+
+1732683548 c:\users\billy\desktop\project\bookingmanager.h
+	<map>
+	<string>
+	<vector>
+	"IRoom.h"
+	"RoomFactory.h"
+	"Event.h"
+
+1731822130 source:c:\users\billy\desktop\project\faculty.cpp
+	"Faculty.h"
+
+1731822137 c:\users\billy\desktop\project\faculty.h
+	"User.h"
+	"Event.h"
+
+1732693279 source:c:\users\billy\desktop\project\main.cpp
+	<iostream>
+	"Utils.h"
+	"EventManager.h"
+	"BookingManager.h"
+	"Student.h"
+	"Faculty.h"
+	"Coordinator.h"
+
+1731822137 c:\users\billy\desktop\project\student.h
+	"User.h"
+
+1732683546 source:c:\users\billy\desktop\project\room.cpp
+	"Room.h"
+
+1731822130 source:c:\users\billy\desktop\project\student.cpp
+	"Student.h"
+
+1731822130 source:c:\users\billy\desktop\project\user.cpp
+	"User.h"
+
+1732683549 source:c:\users\billy\desktop\project\bookingmanager.cpp
+	"BookingManager.h"
+	<sstream>
+
+1732689270 c:\users\billy\desktop\project\utils.h
+	<string>
+	"Event.h"
+
+1732692373 source:c:\users\billy\desktop\project\utils.cpp
+	"Utils.h"
+	<iostream>
+	<algorithm>
+	<cctype>
+	<limits>
+
+1732682972 c:\users\billy\desktop\project\iroom.h
+	<string>
+	<map>
+
+1732682972 source:c:\users\billy\desktop\project\conferenceroom.cpp
+	"ConferenceRoom.h"
+
+1732682972 c:\users\billy\desktop\project\conferenceroom.h
+	"IRoom.h"
+
+1732683546 c:\users\billy\desktop\project\roomfactory.h
+	"IRoom.h"
+	<string>
+	<vector>
+	<regex>
+	<stdexcept>
+
+1732684556 source:c:\users\billy\desktop\project\roomfactory.cpp
+	"RoomFactory.h"
+	"Room.h"
+

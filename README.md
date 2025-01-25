@@ -58,13 +58,33 @@ A C++ application for managing events, room bookings, and event registrations in
 ## Getting Started
 
 ### Prerequisites
-- C++ compiler (GCC recommended)
-- Code::Blocks IDE (project files included)
+- C++ compiler (GCC recommended, version 8.0 or higher)
+- Code::Blocks IDE (version 20.03 or higher)
+- C++17 or later
+- Minimum 4GB RAM recommended
+- 100MB free disk space
 
 ### Building the Project
 1. Open the project in Code::Blocks
 2. Build using the provided project file (`project.cbp`)
 3. Run the compiled executable
+
+### Configuration
+1. Room Types Setup
+   ```cpp
+   // Example room configuration in RoomFactory
+   Room* createRoom(const std::string& type, const std::string& id) {
+       if (type == "conference") {
+           return new ConferenceRoom(id, "Main Building", 50, true, true);
+       }
+       // Add more room types as needed
+   }
+   ```
+
+2. User Permissions
+   - Faculty IDs must start with 'F' (e.g., F101)
+   - Student IDs must start with 'S' (e.g., S201)
+   - Coordinator IDs must start with 'C' (e.g., C301)
 
 ### Usage
 1. Launch the application
@@ -86,6 +106,8 @@ The project includes two build configurations:
 - `project.cbp`: Code::Blocks project file
 - `project.layout`: IDE layout configuration
 - `project.depend`: Dependency information
+
+### Application Interface
 
 ## Contributing
 1. Fork the repository
